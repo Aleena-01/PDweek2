@@ -2,7 +2,7 @@
 using namespace std;
 
 main() {
-cout<<"Number of square meters you can print: ";
+cout<<"Number of square meters you can paint: ";
 int sqmeter;
 cin>>sqmeter;
 
@@ -17,7 +17,7 @@ cin>>height;
 int dim=wid*height;
 int numwalls=sqmeter/dim;
 
-cout<<"Number of wall you can print: "<<numwalls;
+cout<<"Number of walls you can paint: "<<numwalls;
 
 
 

@@ -2,20 +2,20 @@
 using namespace std;
 
 main() {
-cout<<"Enter the size of fertilizer bag in pounds: ";
-int size;
+cout<<"Enter the size of the fertilizer bag in pounds: ";
+float size;
 cin>>size;
 
 cout<<"Enter the cost of the bag: $";
-int cost;
+float cost;
 cin>>cost;
 
 cout<<"Enter the area in square feet that can be covered by the bag: ";
-int area;
+float area;
 cin>>area;
 
-int costperpound=cost/size;
-int costperarea=size*area;
+float costperpound=cost/size;
+float costperarea=cost/area;
 
 cout<<"Cost of fertilizer per pound: $"<<costperpound;
 cout<<endl;

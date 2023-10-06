@@ -3,18 +3,18 @@ using namespace std;
 
 main() {
 cout<<"Enter Initial Velocity (m/s): ";
-int iniv;
+float iniv;
 cin>>iniv;
 
 cout<<"Enter Acceleration (m/s^2): ";
-int acc;
+float acc;
 cin>>acc;
 
 cout<<"Enter Time (s): ";
-int time;
+float time;
 cin>>time;
 
-int finv=acc*time + iniv;
+float finv=acc*time + iniv;
 cout<<"Final Velocity (m/s): "<<finv;
 
 return 0;

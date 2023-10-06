@@ -64,9 +64,9 @@ cin>>num15;
 
 int sum1to5=num1+num2+num3+num4+num5;
 
-int mulnum6=sum1to5*num6*num7*num8*num9*num10;
+int mulnum6=num6*num7*num8*num9*num10;
 
-int subnum11=sum1to5-num11-num12-num13-num14-num15;
+int subnum11=num11-num12-num13-num14-num15;
 
 int add=sum1to5+mulnum6;
 int tot=add-subnum11;

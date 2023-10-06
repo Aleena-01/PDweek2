@@ -22,11 +22,12 @@ cout<<"Enter the number of child tickets sold: ";
 int childticksold;
 cin>>childticksold;
 
-cout<<"Enter the percentage of the amount to be donated to charity: ";
-int percentagech=0;
+cout<<"Enter the percentage of the amount to be donated to charity: "<<endl;
+int percentagech;
 cin>> percentagech;
 
 cout<<"Movie: "<<movie;
+cout<<endl;
 
 int totamount=adulttick*adultticksold+childtick*childticksold;
 int charity= totamount/percentagech;
@@ -34,7 +35,7 @@ int remamout=totamount- charity;
 
 cout<<"Total amount generated from ticket sales: $"<<totamount;
 cout<<endl;
-cout<<"Donation to charity ("<<percentagech<<"): $"<<charity;
+cout<<"Donation to charity ("<<percentagech<<"%): $"<<charity;
 cout<<endl;
 cout<<"Remaining amount after donation: $"<<remamout;
 cout<<endl;
