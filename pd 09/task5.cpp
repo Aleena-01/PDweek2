@@ -25,6 +25,8 @@ int commonChar(string word1, string word2)
             if (word1[i] == word2[j])
             {
                 count++;
+                word1[i] = '@';
+                word2[j] = '$';
                 break;
             }
         }

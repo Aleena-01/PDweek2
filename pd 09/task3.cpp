@@ -28,10 +28,10 @@ bool areAllElementsIdentical(string arr[], int sizeArr)
     }
     if(count==sizeArr)
     {
-       result="true";
+       result= true;
     }
     else{
-        result="false";
+        result= false;
     }
     
     return result;

@@ -21,16 +21,20 @@ main()
     cout<<"[";
     for(int k=0;k<sizeArr;k++)
     {
-        cout<<arr[k]<<", ";
+        cout<<arr[k];
+        if(k<sizeArr-1)
+        {
+            cout<<",";
+        }
     }
     cout<<" ]";
 }
 int evenOddTransform(int arr[], int sizeArr, int numoftimes)
 {
     int result;
-   for(int i=0;i<numoftimes;i++)
+   for(int i=0;i<sizeArr;i++)
    {
-    for(int j=0;j<sizeArr;j++)
+    for(int j=0;j<numoftimes;j++)
     {
         if(arr[i]%2==0)
         {

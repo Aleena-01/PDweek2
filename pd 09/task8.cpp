@@ -15,14 +15,14 @@ main(){
 
 string findBrokenkeys(string correctPhrase,string actualTyped )
 {
-string result;
+string result = "";
 bool key[26];
 int length=correctPhrase.length();
 for(int i=0;i<length;i++)
 {
     if(correctPhrase[i] != actualTyped[i])
     {
-        result=correctPhrase[i];
+        result +=correctPhrase[i];
     }
     
 }
